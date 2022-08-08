@@ -1,25 +1,39 @@
 {
-  "name": "wa-api",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "name": "whatsapp-node-api",
+  "version": "0.0.3",
+  "description": "A NodeJS API wrapper for whatsapp-web.js",
+  "main": "api.js",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js"
+    "start": "node api.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pranavms13/whatsapp-node-api.git"
+  },
+  "keywords": [
+    "whatsapp-api",
+    "whatsapp",
+    "whatsapp-web",
+    "whatsapp"
+  ],
+  "author": "Pranav M S",
+  "license": "CC-BY-NC",
+  "bugs": {
+    "url": "https://github.com/pranavms13/whatsapp-node-api/issues"
+  },
+  "homepage": "https://github.com/pranavms13/whatsapp-node-api#readme",
   "dependencies": {
-    "daemon": "^1.1.0",
-    "dotenv": "^16.0.1",
-    "express": "^4.18.1",
-    "http-errors": "^2.0.0",
-    "morgan": "^1.10.0",
+    "axios": "^0.21.4",
+    "body-parser": "^1.19.2",
+    "child_process": "^1.0.2",
+    "express": "^4.17.3",
+    "fs": "0.0.1-security",
+    "nodemon": "^2.0.15",
     "qrcode-terminal": "^0.12.0",
-    "whatsapp-web.js": "^1.17.1"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.19"
+    "request": "^2.88.2",
+    "shelljs": "^0.8.5",
+    "valid-url": "^1.0.9",
+    "whatsapp-web.js": "^1.16.1"
   }
 }
